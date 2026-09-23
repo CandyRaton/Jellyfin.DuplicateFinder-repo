@@ -1,0 +1,21 @@
+[
+  {
+    "guid": "4b09c9a0-8295-4cfa-b30e-68db44c58ef8",
+    "name": "Duplicate Finder",
+    "description": "Analyse le dossier choisi dans une bibliothèque Jellyfin, avec ses sous-dossiers, afin de trouver les fichiers identiques octet par octet. Affiche les groupes de doublons, leurs chemins, tailles, affiches, métadonnées et l’espace potentiellement récupérable. Fonctionne en lecture seule : aucun fichier n’est déplacé, renommé ou supprimé.",
+    "overview": "Repère les fichiers multimédias strictement identiques sans les modifier",
+    "owner": "Duplicate Finder Community",
+    "category": "General",
+    "versions": [
+      {
+        "version": "1.0.7.0",
+        "changelog": "Décrit clairement les fonctions du plugin et utilise une identité générique dans le catalogue. Recherche les doublons exacts par empreinte SHA-256, prend en charge les grandes médiathèques et reste entièrement en lecture seule.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/CandyRaton/Jellyfin.DuplicateFinder-repo/main/releases/v1.0.7.0/duplicate-finder_1.0.7.0.zip",
+        "checksum": "8015619b34867814632489d228823f20",
+        "timestamp": "2026-09-23T06:05:05Z"
+      }
+    ],
+    "imageUrl": "https://raw.githubusercontent.com/CandyRaton/Jellyfin.DuplicateFinder-repo/main/images/duplicate-finder.png"
+  }
+]
